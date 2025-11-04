@@ -1,0 +1,17 @@
+.container {
+
+    display: flex; /*  proprietà flexbox interrompe il flusso della pagina */
+    flex-direction: row; /* provare column, row-reverse, column-reverse */
+    background-color: #222;
+    padding: 10px;
+}
+
+.item {
+    text-align: center; /*  allinea il testo */
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
